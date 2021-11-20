@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+	<meta charset="UTF-8" />
+	<title>Teplo Hlučín</title>
+
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/normalize.css" type="text/css" />
+	<link rel="stylesheet" href="css/grid.css" type="text/css" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA41pW2DMqb2BMaWToZ5-hpEBlrPGwSIHY&callback=initMap" async defer></script>
+	<script src="js/default.js"></script>
+</head>
+<body>
+	<div class="main-overflow">
+		<div class="container main-container">
+			<header class="header">
+				<div class="header-bar">
+					<a href="" class="logo">
+						<img src="assets/logo.png" alt="Teplo Hlučín - Logo" title="Teplo Hlučín" class="logo-img" />
+						<div class="logo-text">
+							<h1 class="main-heading">Teplo Hlučín, <small>spol. s.r.o.</small></h1>
+						</div>
+					</a>
+
+				</div>
+
+				<div class="nav-top">
+					<div class="menu-icon">
+						<span class="menu-bar menu-bar-1"></span>
+						<span class="menu-bar menu-bar-2"></span>
+						<span class="menu-bar menu-bar-3"></span>
+					</div>
+					<nav class="nav nav-top-content">
+						<a href="">Domů</a>
+						<a href="">Aktuality</a>
+						<a href="">O společnosti</a>
+						<a href="">Služby</a>
+						<a href="">Fotogalerie</a>
+						<a href="">Kontakty</a>
+						<form class="search-form" href="">
+							<label for="search-input"><i class="search-icon"></i></label>
+							<input class="search-input" id="search-input" type="text" placeholder="Vyhledat" />
+						</form>
+					</nav>
+					<div class="newsletter">
+						<h2>Přihlášení k odběru novinek a poruch <small>pomocí e-mailu a SMS</small></h2>
+						<form class="newsletter-form">
+							<div class="row">
+								<div class="col-xs-6">
+									<input type="text" placeholder="Jméno" name="" />
+								</div>
+								<div class="col-xs-6">
+									<input type="text" placeholder="Příjmení" name="" />
+								</div>
+							</div>
+							<input type="text" placeholder="Adresa bydliště" name="" />
+							<input type="text" placeholder="E-mailová adresa" name="" />
+							<input type="text" placeholder="Telefonní číslo" name="" />
+							<input type="submit" value="Odeslat" />						
+						</form>
+					</div>					
+				</div>
+				<div class="hlaseni">
+					<h2>Hlášení poruch</h2>
+					<span class="tel">+420 602 729 716</span>
+				</div>
+			</header>
+			<aside class="aside rodinka">
+				<div class="lg-text">Přinášíme teplo do Vašich domovů</div>
+				<a href="" class="button red">Ceník tepla</a>
+			</aside>
+			<main class="main">
+				<div class="row">
+					<div class="col-md-6 aktuality">
+						<h2>Aktuality</h2>
+						<a href="" class="vsechny-aktuality">Zobrazit všechny aktuality</a>
+						<div class="aktualita">
+							<time class="time aktualita-time">
+								<span class="mesic">01/10</span>
+								<span class="rok">2015</span>								
+							</time>
+							<div class="aktualita-text">
+								<a href=""><h3>Rekonstrukce kotelny na městském úřadě</h3></a>
+								<p>Začátkem září byla ukončena rekonstrukce kotelny I. na Městském úřadě v Hlučíně ...</p>
+							</div>
+						</div>
+						<div class="aktualita">
+							<time class="time aktualita-time">
+								<span class="mesic">01/10</span>
+								<span class="rok">2015</span>								
+							</time>
+							<div class="aktualita-text">
+								<a href=""><h3>Rekonstrukce kotelny na městském úřadě</h3></a>
+								<p>Začátkem září byla ukončena rekonstrukce kotelny I. na Městském úřadě v Hlučíně ...</p>
+							</div>
+						</div>
+						<div class="aktualita">
+							<time class="time aktualita-time">
+								<span class="mesic">01/10</span>
+								<span class="rok">2015</span>								
+							</time>
+							<div class="aktualita-text">
+								<a href=""><h3>Rekonstrukce kotelny na městském úřadě</h3></a>
+								<p>Začátkem září byla ukončena rekonstrukce kotelny I. na Městském úřadě v Hlučíně ...</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 ">
+						<div class="otazky">
+							<div class="otazky-wrap">
+								<h2>Časté otázky</h2>
+								<ol>
+									<li><a href="">Jaká je cena topení pro rok 2015?</a></li>
+									<li><a href="">Jak můžu získávat informace o poruchách a novinkách?</a></li>
+									<li><a href="">Kde všude dodáváte teplo?</a></li>
+									<li><a href="">Může firma odebírat teplo od Vás?</a></li>
+								</ol>
+							</div>
+						</div>
+						<div class="poruchy">
+							<h2>Aktuální poruchy a výluky</h2>
+							<div class="poruchy-info">
+								<p>Aktuálně nejsou hlášeny žádné poruchy a výluky.</p>
+							</div>
+							<a href="" class="button">Historie poruch</a>
+						</div>
+					</div>					
+				</div>
+			</main>
+		</div><!-- /.container -->
+		<footer class="footer">
+			<nav class="nav nav-bottom">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-sm-6">
+							<h4>O společnosti</h4>
+							<a href="">Historie společnosti</a>
+							<a href="">Oprávnění k podnikání</a>
+							<a href="">Legislativa</a>
+							<a href="">Výroční zprávy</a>
+							<a href="">Kontakty</a>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<h4>Důležité odkazy</h4>
+							<a href="">Aktuality</a>
+							<a href="">Naše služby</a>
+							<a href="">Ceník tepelné energie</a>
+							<a href="">Fotogalerie</a>
+							<a href="">Časté dotazy</a>
+						</div>
+						<div class="col-md-3 col-sm-6 adresa">
+							<h4>Kde nás najdete?</h4>
+							<address>
+								Teplo Hlučín, spol. s.r.o.<br>
+								Čs. armády 1263/32<br>
+								748 01 Hlučín<br>
+							</address>
+							<p>
+								IČ:	25362747<br>
+								DIČ: CZ25362747
+							</p>
+						</div>
+						<div class="col-md-3 col-sm-6">
+							<div id="google-map" class="google-map">
+							</div>
+							<script type="text/javascript">
+							</script>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<div class="copyright">
+				<div class="container">
+					<a href="">
+						<span class="copyright-text">&nbsp;Webdesign &amp; Marketing  |  © 2015</span>
+						<img src="assets/webap.png" alt="WebAp" />	
+					</a>						
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
